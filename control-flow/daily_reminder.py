@@ -16,9 +16,11 @@ match priority:
 
 # Add time-bound message
 if time_bound == "yes":
-    reminder += " that requires immediate attention today!"
+    message += " that requires immediate attention today!"
 else:
-    reminder += ". Consider completing it when you have free time."
+    if priority in ["low", "medium"]:
+        message += ". Consider completing it when you have free time."
+
 
 # Output the reminder
-print("\nReminder:", reminder)
+print(message)
