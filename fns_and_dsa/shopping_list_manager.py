@@ -1,11 +1,13 @@
 #This is a function that simply prints the menu. Every time you call display_menu(), the user sees the menu options.
 # Function to display menu options to the user
 def display_menu():
-    print("\nShopping List Manager")
+    print("Shopping List Manager")
     print("1. Add Item")
     print("2. Remove Item")
     print("3. View List")
     print("4. Exit")
+
+# Main logic can go below
 
 # Main function where the logic happens
 def main():
