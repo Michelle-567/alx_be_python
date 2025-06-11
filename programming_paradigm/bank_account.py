@@ -13,7 +13,7 @@ class BankAccount:
             return False
 
     def display_balance(self):
-        print(f"Current Balance: ${self.account_balance}")
+        print(f"Current Balance: ${self.account_balance:.2f}")
 
 #class BankAccount: Defines a blueprint for bank accounts.
 #__init__: A constructor method. It creates the account with a starting balance.
