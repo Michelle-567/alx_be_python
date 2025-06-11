@@ -14,3 +14,9 @@ class BankAccount:
 
     def display_balance(self):
         print(f"Current Balance: ${self.account_balance}")
+
+#class BankAccount: Defines a blueprint for bank accounts.
+#__init__: A constructor method. It creates the account with a starting balance.
+#self: Refers to the current object (instance) of the class.
+#account_balance: A private attribute for storing money in the account.
+#deposit, withdraw, display_balance: These are instance methods that interact with the account.
