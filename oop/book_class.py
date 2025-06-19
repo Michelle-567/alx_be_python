@@ -1,7 +1,7 @@
 #Attributes:
 #title (str): The title of the book.
 #author (str): The author of the book.
-y#ear (int): The publication year of the book.
+#ear (int): The publication year of the book.
 #Magic Methods:
 #Constructor (__init__): Initializes a Book instance with title, author, and year.
 #Destructor (__del__): Prints "Deleting (title of the book)" upon object deletion.
